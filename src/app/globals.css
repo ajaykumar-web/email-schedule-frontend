@@ -1,0 +1,160 @@
+body {
+  background-color: #f3f3f9;
+}
+
+.MuiPaper-root {
+  box-shadow: none;
+  border: 1px solid rgba(60, 30, 90, 0.1);
+}
+
+.MuiTableRow-head {
+  background-color: rgba(60, 30, 90, 0.1);
+  border-bottom: 1px solid rgba(60, 30, 90, 0.1);
+}
+
+.MuiTableRow-head .MuiTableCell-root {
+  color: #333;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.MuiTableRow-root {
+  border-bottom: 1px solid rgba(60, 30, 90, 0.1);
+}
+
+.MuiGrid-item {
+  display: flex;
+  align-items: center;
+}
+
+.MuiCheckbox-root {
+  padding: 0;
+}
+
+.MuiTypography-body1 {
+  position: relative;
+  right: 1.55rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid rgba(60, 30, 90, 0.1);
+  color: #000;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.MuiFormGroup-root {
+  display: contents;
+}
+
+.add-schecdule .MuiBox-root {
+  display: inline;
+}
+
+.add-schecdule .MuiInputBase-input {
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+
+.add-schecdule .MuiContainer-maxWidthLg {
+  padding: 0.75rem;
+  display: flex;
+}
+
+.add-schecdule .MuiFormControlLabel-root {
+  margin: 0;
+}
+
+.MuiCheckbox-colorPrimary {
+  opacity: 0;
+}
+
+.MuiButton-containedPrimary {
+  display: inline-flex;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #e4e4ee;
+  background-color: #391e5a;
+  color: #fff;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #391e5a;
+}
+
+.MuiButton-outlinedPrimary {
+  width: 5.5rem;
+  height: 2rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  background-color: #ebe8ef;
+  color: #333;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.MuiButton-outlinedPrimary:hover {
+  background-color: #ebe8ef;
+  color: #333;
+}
+
+.MuiTypography-h6 {
+  color: #333;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.MuiGrid-item {
+  color: #000;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.searchField.MuiBox-root {
+  width: 18.75rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  border: 1px solid #e4e4ee;
+  background-color: #fff;
+  margin: 1rem 0 2rem;
+  position: relative;
+}
+
+.searchField .MuiInputBase-input {
+  color: #999;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: 0.35rem;
+}
+
+.searchField .search-icon {
+  position: absolute;
+  left: 6rem;
+  top: 0.35rem;
+  color: #000;
+}
